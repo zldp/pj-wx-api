@@ -1,0 +1,12 @@
+2020-02-28 16:13:50.063 [http-nio-8081-exec-1] DEBUG com.zlsoft.pj.wx.api.mapper.BRXXMapper.selectAll -
+                ==>  Preparing: SELECT 病人ID,门诊号,住院号,就诊卡号,卡验证码,费别,医疗付款方式,姓名,性别,年龄,出生日期,出生地点,身份证号,其他证件,身份,职业,民族,国籍,籍贯,区域,学历,婚姻状况,家庭地址,家庭电话,家庭地址邮编,监护人,联系人姓名,联系人关系,联系人地址,联系人电话,户口地址,户口地址邮编,EMAIL,QQ,合同单位ID,工作单位,单位电话,单位邮编,单位开户行,单位帐号,担保人,担保额,担保性质,就诊时间,就诊状态,就诊诊室,住院次数,当前科室ID,当前病区ID,当前床号,入院时间,出院时间,在院,IC卡号,健康号,医保号,险类,查询密码,登记时间,停用时间,锁定,联系人身份证号,病人类型,主页ID,结算模式,手机号 FROM 病人信息 
+2020-02-28 16:13:50.108 [http-nio-8081-exec-1] DEBUG com.zlsoft.pj.wx.api.mapper.BRXXMapper.selectAll -
+                ==> Parameters: 
+2020-02-28 16:14:00.551 [http-nio-8081-exec-1] DEBUG com.zlsoft.pj.wx.api.mapper.BRXXMapper.selectAll -
+                <==      Total: 41150
+2020-02-28 16:31:05.759 [http-nio-8081-exec-1] DEBUG com.zlsoft.pj.wx.api.mapper.BRXXMapper.selectAll -
+                ==>  Preparing: SELECT 病人ID,门诊号,住院号,就诊卡号,卡验证码,费别,医疗付款方式,姓名,性别,年龄,出生日期,出生地点,身份证号,其他证件,身份,职业,民族,国籍,籍贯,区域,学历,婚姻状况,家庭地址,家庭电话,家庭地址邮编,监护人,联系人姓名,联系人关系,联系人地址,联系人电话,户口地址,户口地址邮编,EMAIL,QQ,合同单位ID,工作单位,单位电话,单位邮编,单位开户行,单位帐号,担保人,担保额,担保性质,就诊时间,就诊状态,就诊诊室,住院次数,当前科室ID,当前病区ID,当前床号,入院时间,出院时间,在院,IC卡号,健康号,医保号,险类,查询密码,登记时间,停用时间,锁定,联系人身份证号,病人类型,主页ID,结算模式,手机号 FROM 病人信息 
+2020-02-28 16:31:05.795 [http-nio-8081-exec-1] DEBUG com.zlsoft.pj.wx.api.mapper.BRXXMapper.selectAll -
+                ==> Parameters: 
+2020-02-28 16:31:17.654 [http-nio-8081-exec-1] DEBUG com.zlsoft.pj.wx.api.mapper.BRXXMapper.selectAll -
+                <==      Total: 41150

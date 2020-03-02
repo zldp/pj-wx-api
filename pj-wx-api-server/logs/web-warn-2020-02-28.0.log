@@ -1,0 +1,34 @@
+2020-02-28 16:13:32.606 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner -
+                No MyBatis mapper was found in '[com.zlsoft.pj.wx.api]' package. Please check your configuration.
+2020-02-28 16:24:35.174 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner -
+                No MyBatis mapper was found in '[com.zlsoft.pj.wx.api]' package. Please check your configuration.
+2020-02-28 16:24:35.910 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webMvcConfigurer': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.profiles.active' in value "${spring.profiles.active}"
+2020-02-28 16:30:57.066 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner -
+                No MyBatis mapper was found in '[com.zlsoft.pj.wx.api]' package. Please check your configuration.
+2020-02-28 16:44:17.934 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner -
+                No MyBatis mapper was found in '[com.zlsoft.pj.wx.api]' package. Please check your configuration.
+2020-02-28 16:44:37.597 [http-nio-8081-exec-2] WARN  com.zlsoft.pj.wx.api.configure.WebMvcConfigurer -
+                签名认证失败，请求接口：/hospital/testSign，请求IP：0:0:0:0:0:0:0:1，请求参数：{}
+2020-02-28 16:46:29.727 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner -
+                No MyBatis mapper was found in '[com.zlsoft.pj.wx.api]' package. Please check your configuration.
+2020-02-28 16:46:35.352 [http-nio-8081-exec-1] WARN  com.zlsoft.pj.wx.api.configure.WebMvcConfigurer -
+                签名认证失败，请求接口：/hospital/testSign，请求IP：0:0:0:0:0:0:0:1，请求参数：{}
+2020-02-28 16:49:15.303 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner -
+                No MyBatis mapper was found in '[com.zlsoft.pj.wx.api]' package. Please check your configuration.
+2020-02-28 16:49:21.858 [http-nio-8081-exec-1] WARN  com.zlsoft.pj.wx.api.configure.WebMvcConfigurer -
+                签名认证失败，请求接口：/hospital/testSign，请求IP：0:0:0:0:0:0:0:1，请求参数：{}
+2020-02-28 16:49:24.914 [http-nio-8081-exec-3] WARN  com.zlsoft.pj.wx.api.configure.WebMvcConfigurer -
+                签名认证失败，请求接口：/hospital/test，请求IP：0:0:0:0:0:0:0:1，请求参数：{}
+2020-02-28 16:49:46.083 [http-nio-8081-exec-5] WARN  com.zlsoft.pj.wx.api.configure.WebMvcConfigurer -
+                签名认证失败，请求接口：/hospital/test，请求IP：0:0:0:0:0:0:0:1，请求参数：{}
+2020-02-28 16:51:17.068 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner -
+                No MyBatis mapper was found in '[com.zlsoft.pj.wx.api]' package. Please check your configuration.
+2020-02-28 18:04:52.881 [http-nio-8081-exec-3] WARN  com.zlsoft.pj.wx.api.configure.WebMvcConfigurer -
+                签名认证失败，请求接口：/hospital/test，请求IP：0:0:0:0:0:0:0:1，请求参数：{}
+2020-02-28 18:05:01.659 [http-nio-8081-exec-4] WARN  com.zlsoft.pj.wx.api.configure.WebMvcConfigurer -
+                签名认证失败，请求接口：/hospital/test，请求IP：0:0:0:0:0:0:0:1，请求参数：{}
+2020-02-28 18:05:35.333 [http-nio-8081-exec-5] WARN  com.zlsoft.pj.wx.api.configure.WebMvcConfigurer -
+                签名认证失败，请求接口：/hospital/test，请求IP：0:0:0:0:0:0:0:1，请求参数：{"test":["11"]}
+2020-02-28 18:05:46.522 [http-nio-8081-exec-6] WARN  com.zlsoft.pj.wx.api.configure.WebMvcConfigurer -
+                签名认证失败，请求接口：/hospital/test，请求IP：0:0:0:0:0:0:0:1，请求参数：{"test":["11"]}

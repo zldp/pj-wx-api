@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zlsoft.pj.wx.api.mapper.BRXXMapper">
+  <resultMap id="BaseResultMap" type="com.zlsoft.pj.wx.api.domain.BRXX">
+    <!--@mbg.generated generated on Fri Feb 28 12:31:39 CST 2020.-->
+    <id column="病人ID" jdbcType="DECIMAL" property="病人id" />
+    <result column="门诊号" jdbcType="DECIMAL" property="门诊号" />
+    <result column="住院号" jdbcType="DECIMAL" property="住院号" />
+    <result column="就诊卡号" jdbcType="VARCHAR" property="就诊卡号" />
+    <result column="卡验证码" jdbcType="VARCHAR" property="卡验证码" />
+    <result column="费别" jdbcType="VARCHAR" property="费别" />
+    <result column="医疗付款方式" jdbcType="VARCHAR" property="医疗付款方式" />
+    <result column="姓名" jdbcType="VARCHAR" property="姓名" />
+    <result column="性别" jdbcType="VARCHAR" property="性别" />
+    <result column="年龄" jdbcType="VARCHAR" property="年龄" />
+    <result column="出生日期" jdbcType="TIMESTAMP" property="出生日期" />
+    <result column="出生地点" jdbcType="VARCHAR" property="出生地点" />
+    <result column="身份证号" jdbcType="VARCHAR" property="身份证号" />
+    <result column="其他证件" jdbcType="VARCHAR" property="其他证件" />
+    <result column="身份" jdbcType="VARCHAR" property="身份" />
+    <result column="职业" jdbcType="VARCHAR" property="职业" />
+    <result column="民族" jdbcType="VARCHAR" property="民族" />
+    <result column="国籍" jdbcType="VARCHAR" property="国籍" />
+    <result column="籍贯" jdbcType="VARCHAR" property="籍贯" />
+    <result column="区域" jdbcType="VARCHAR" property="区域" />
+    <result column="学历" jdbcType="VARCHAR" property="学历" />
+    <result column="婚姻状况" jdbcType="VARCHAR" property="婚姻状况" />
+    <result column="家庭地址" jdbcType="VARCHAR" property="家庭地址" />
+    <result column="家庭电话" jdbcType="VARCHAR" property="家庭电话" />
+    <result column="家庭地址邮编" jdbcType="VARCHAR" property="家庭地址邮编" />
+    <result column="监护人" jdbcType="VARCHAR" property="监护人" />
+    <result column="联系人姓名" jdbcType="VARCHAR" property="联系人姓名" />
+    <result column="联系人关系" jdbcType="VARCHAR" property="联系人关系" />
+    <result column="联系人地址" jdbcType="VARCHAR" property="联系人地址" />
+    <result column="联系人电话" jdbcType="VARCHAR" property="联系人电话" />
+    <result column="户口地址" jdbcType="VARCHAR" property="户口地址" />
+    <result column="户口地址邮编" jdbcType="VARCHAR" property="户口地址邮编" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="QQ" jdbcType="VARCHAR" property="qq" />
+    <result column="合同单位ID" jdbcType="DECIMAL" property="合同单位id" />
+    <result column="工作单位" jdbcType="VARCHAR" property="工作单位" />
+    <result column="单位电话" jdbcType="VARCHAR" property="单位电话" />
+    <result column="单位邮编" jdbcType="VARCHAR" property="单位邮编" />
+    <result column="单位开户行" jdbcType="VARCHAR" property="单位开户行" />
+    <result column="单位帐号" jdbcType="VARCHAR" property="单位帐号" />
+    <result column="担保人" jdbcType="VARCHAR" property="担保人" />
+    <result column="担保额" jdbcType="DECIMAL" property="担保额" />
+    <result column="担保性质" jdbcType="DECIMAL" property="担保性质" />
+    <result column="就诊时间" jdbcType="TIMESTAMP" property="就诊时间" />
+    <result column="就诊状态" jdbcType="DECIMAL" property="就诊状态" />
+    <result column="就诊诊室" jdbcType="VARCHAR" property="就诊诊室" />
+    <result column="住院次数" jdbcType="DECIMAL" property="住院次数" />
+    <result column="当前科室ID" jdbcType="DECIMAL" property="当前科室id" />
+    <result column="当前病区ID" jdbcType="DECIMAL" property="当前病区id" />
+    <result column="当前床号" jdbcType="VARCHAR" property="当前床号" />
+    <result column="入院时间" jdbcType="TIMESTAMP" property="入院时间" />
+    <result column="出院时间" jdbcType="TIMESTAMP" property="出院时间" />
+    <result column="在院" jdbcType="DECIMAL" property="在院" />
+    <result column="IC卡号" jdbcType="VARCHAR" property="ic卡号" />
+    <result column="健康号" jdbcType="VARCHAR" property="健康号" />
+    <result column="医保号" jdbcType="VARCHAR" property="医保号" />
+    <result column="险类" jdbcType="DECIMAL" property="险类" />
+    <result column="查询密码" jdbcType="VARCHAR" property="查询密码" />
+    <result column="登记时间" jdbcType="TIMESTAMP" property="登记时间" />
+    <result column="停用时间" jdbcType="TIMESTAMP" property="停用时间" />
+    <result column="锁定" jdbcType="DECIMAL" property="锁定" />
+    <result column="联系人身份证号" jdbcType="VARCHAR" property="联系人身份证号" />
+    <result column="病人类型" jdbcType="VARCHAR" property="病人类型" />
+    <result column="主页ID" jdbcType="DECIMAL" property="主页id" />
+    <result column="结算模式" jdbcType="DECIMAL" property="结算模式" />
+    <result column="手机号" jdbcType="VARCHAR" property="手机号" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Fri Feb 28 12:31:39 CST 2020.-->
+    病人ID, 门诊号, 住院号, 就诊卡号, 卡验证码, 费别, 医疗付款方式, 姓名, 性别, 年龄, 出生日期, 出生地点, 身份证号, 其他证件, 身份, 职业, 
+    民族, 国籍, 籍贯, 区域, 学历, 婚姻状况, 家庭地址, 家庭电话, 家庭地址邮编, 监护人, 联系人姓名, 联系人关系, 联系人地址, 联系人电话, 户口地址, 
+    户口地址邮编, EMAIL, QQ, 合同单位ID, 工作单位, 单位电话, 单位邮编, 单位开户行, 单位帐号, 担保人, 担保额, 担保性质, 就诊时间, 就诊状态, 
+    就诊诊室, 住院次数, 当前科室ID, 当前病区ID, 当前床号, 入院时间, 出院时间, 在院, IC卡号, 健康号, 医保号, 险类, 查询密码, 登记时间, 
+    停用时间, 锁定, 联系人身份证号, 病人类型, 主页ID, 结算模式, 手机号
+  </sql>
+</mapper>

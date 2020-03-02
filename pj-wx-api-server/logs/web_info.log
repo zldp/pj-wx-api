@@ -1,0 +1,114 @@
+2020-03-02 08:39:14.601 [main] INFO  com.zlsoft.pj.wx.api.PjWxApiApplication -
+                Starting PjWxApiApplication on DESKTOP-PTI27T2 with PID 532 (started by dp193 in E:\中联智慧医院\平江微信接口\pj-wx-api)
+2020-03-02 08:39:14.604 [main] INFO  com.zlsoft.pj.wx.api.PjWxApiApplication -
+                The following profiles are active: dev
+2020-03-02 08:39:15.776 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port(s): 8081 (http)
+2020-03-02 08:39:15.788 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-02 08:39:15.796 [main] INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2020-03-02 08:39:15.796 [main] INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-03-02 08:39:15.885 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/hospital] -
+                Initializing Spring embedded WebApplicationContext
+2020-03-02 08:39:15.885 [main] INFO  org.springframework.web.context.ContextLoader -
+                Root WebApplicationContext: initialization completed in 1246 ms
+2020-03-02 08:39:16.524 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -
+                Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 08:39:16.625 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler -
+                Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-03-02 08:39:16.626 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler -
+                Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-03-02 08:39:16.626 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler -
+                Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-03-02 08:39:16.627 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler -
+                Clear EntityHelper entityTableMap cache.
+2020-03-02 08:39:16.899 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-8081"]
+2020-03-02 08:39:16.918 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port(s): 8081 (http) with context path '/hospital'
+2020-03-02 08:39:16.920 [main] INFO  com.zlsoft.pj.wx.api.PjWxApiApplication -
+                Started PjWxApiApplication in 2.936 seconds (JVM running for 4.896)
+2020-03-02 08:39:29.884 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/hospital] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-02 08:39:29.884 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2020-03-02 08:39:29.893 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 8 ms
+2020-03-02 09:06:20.767 [Thread-8] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -
+                Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-02 09:06:27.247 [main] INFO  com.zlsoft.pj.wx.api.PjWxApiApplication -
+                Starting PjWxApiApplication on DESKTOP-PTI27T2 with PID 12324 (started by dp193 in E:\中联智慧医院\平江微信接口\pj-wx-api)
+2020-03-02 09:06:27.250 [main] INFO  com.zlsoft.pj.wx.api.PjWxApiApplication -
+                The following profiles are active: dev
+2020-03-02 09:06:28.385 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat initialized with port(s): 8081 (http)
+2020-03-02 09:06:28.396 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-02 09:06:28.403 [main] INFO  org.apache.catalina.core.StandardService -
+                Starting service [Tomcat]
+2020-03-02 09:06:28.403 [main] INFO  org.apache.catalina.core.StandardEngine -
+                Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-03-02 09:06:28.486 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/hospital] -
+                Initializing Spring embedded WebApplicationContext
+2020-03-02 09:06:28.486 [main] INFO  org.springframework.web.context.ContextLoader -
+                Root WebApplicationContext: initialization completed in 1200 ms
+2020-03-02 09:06:29.124 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -
+                Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 09:06:29.224 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler -
+                Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-03-02 09:06:29.225 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler -
+                Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-03-02 09:06:29.225 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler -
+                Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-03-02 09:06:29.225 [main] INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler -
+                Clear EntityHelper entityTableMap cache.
+2020-03-02 09:06:29.463 [main] INFO  org.apache.coyote.http11.Http11NioProtocol -
+                Starting ProtocolHandler ["http-nio-8081"]
+2020-03-02 09:06:29.482 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -
+                Tomcat started on port(s): 8081 (http) with context path '/hospital'
+2020-03-02 09:06:29.485 [main] INFO  com.zlsoft.pj.wx.api.PjWxApiApplication -
+                Started PjWxApiApplication in 2.773 seconds (JVM running for 3.472)
+2020-03-02 09:06:45.243 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/hospital] -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-02 09:06:45.243 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Initializing Servlet 'dispatcherServlet'
+2020-03-02 09:06:45.251 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -
+                Completed initialization in 8 ms
+2020-03-02 09:07:50.071 [http-nio-8081-exec-3] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                ========================================== Start ==========================================
+2020-03-02 09:07:50.071 [http-nio-8081-exec-3] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                URL            : http://localhost:8081/hospital/test
+2020-03-02 09:07:50.071 [http-nio-8081-exec-3] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                HTTP Method    : GET
+2020-03-02 09:07:50.072 [http-nio-8081-exec-3] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                Class Method   : com.zlsoft.pj.wx.api.controller.TestController.test
+2020-03-02 09:07:50.073 [http-nio-8081-exec-3] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                IP             : 0:0:0:0:0:0:0:1
+2020-03-02 09:07:50.075 [http-nio-8081-exec-3] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                Request Args   : []
+2020-03-02 09:07:50.154 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource -
+                MyHikariCP - Starting...
+2020-03-02 09:08:31.522 [http-nio-8081-exec-4] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                ========================================== Start ==========================================
+2020-03-02 09:08:31.522 [http-nio-8081-exec-4] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                URL            : http://localhost:8081/hospital/testSign
+2020-03-02 09:08:31.522 [http-nio-8081-exec-4] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                HTTP Method    : GET
+2020-03-02 09:08:31.523 [http-nio-8081-exec-4] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                Class Method   : com.zlsoft.pj.wx.api.controller.TestController.testSign
+2020-03-02 09:08:31.523 [http-nio-8081-exec-4] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                IP             : 0:0:0:0:0:0:0:1
+2020-03-02 09:08:31.523 [http-nio-8081-exec-4] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                Request Args   : []
+2020-03-02 09:08:31.523 [http-nio-8081-exec-4] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                Response Args  : "签名测试通过"
+2020-03-02 09:08:31.523 [http-nio-8081-exec-4] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                Time-Consuming : 1 ms
+2020-03-02 09:08:31.523 [http-nio-8081-exec-4] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                =========================================== End ===========================================
+2020-03-02 09:08:31.523 [http-nio-8081-exec-4] INFO  com.zlsoft.pj.wx.api.configure.WebLogAspect -
+                
+2020-03-02 09:08:49.397 [Thread-8] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -
+                Shutting down ExecutorService 'applicationTaskExecutor'
